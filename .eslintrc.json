@@ -1,0 +1,26 @@
+{
+    "plugins": ["react"],
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "rules": {
+      "no-console": "off",
+      "comma-dangle": "off",
+      "no-undef": "off",
+      "quotes": ["error", "single"],
+      "indent": "off",
+      "require-yield": "off",
+      "react/display-name": "off",
+      "no-extra-semi": "off",
+      "react/react-in-jsx-scope": "off",
+      "import/no-unresolved": "off"
+    },
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+      "requireConfigFile": false,
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
+  }
+  

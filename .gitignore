@@ -1,0 +1,7 @@
+node_modules
+dist
+package-lock.json
+yarn.lock
+yarn-error.lock
+package/**/dist
+package/**/node_modules

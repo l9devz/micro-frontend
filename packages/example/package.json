@@ -1,0 +1,16 @@
+{
+  "version": "0.0.0",
+  "name": "@l9/example",
+  "license": "ISC",
+  "scripts": {
+    "dev": "NODE_ENV=development webpack serve",
+    "build": "NODE_ENV=production webpack --config webpack.prod.js",
+    "clean": "rimraf build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.5",
+    "@l9/common":"0.0.0"
+  }
+}

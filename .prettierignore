@@ -1,0 +1,6 @@
+/dist
+/node_modules
+.eslintrc.json
+.prettierrc.json
+jsconfig.json
+package.json

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "declaration": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "example/*": ["../example/src/*"]
+    }
+  },
+  "include": ["./src/*", "./src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
