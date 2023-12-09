@@ -1,5 +1,5 @@
 {
-  "name": "accounting",
+  "name": "micro-frontend",
   "private": true,
   "workspaces": [
     "packages/*"
